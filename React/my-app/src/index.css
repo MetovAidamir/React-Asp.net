@@ -6,7 +6,15 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.red{
+  background-color: red;
+}
+.yellow{
+  background-color: yellow;
+}
+.green{
+  background-color: green;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

@@ -1,9 +1,11 @@
 import React,{Component} from 'react';
 import {variables} from './Variables.js';
+<link rel="stylesheet" href="index.css"></link>
 export class Binary extends Component{
     constructor(props){
         super(props);
-       
+        
+     // <td className={rowClass } key={byt.id}>
         this.state={
             
         bytes:[],
@@ -70,7 +72,12 @@ export class Binary extends Component{
             alert('Failed');
         })
     }
-
+    
+     getColorRow = (value)=>{
+        if(value> 100) return 'blue'
+        if(value> 50) return 'green'
+        if(value< 50) return 'red'
+     }
     updateClick(){
         fetch(variables.API_URL+'Binary',{
             method:'PUT',
@@ -109,22 +116,27 @@ export class Binary extends Component{
         })
         }
     }
+    getColorRow = (value)=>{
+        if(value> 100) return 'red'
+        if(value> 50) return 'yellow'
+        if(value< 50) return 'green'
+     }
     checkClick(number){
         this.setState(prevState=>({byteidlist:[...prevState.byteidlist,number]}))  
     }
+   
     //Сумма
     SumButtonClick(){
         const {byteidlist}  = this.state;
-        fetch(variables.API_URL+'Binary/Sum'+byteidlist,{
-            method:'PUT',
+        console.log(byteidlist);
+        fetch(variables.API_URL+'Binary/Sum/',{
+            method:'POST',
             headers:{
                 'Accept':'application/json',
-                'Content-Type':'application/json'
+                'Content-Type':'application/json;charset=utf-8'
             },
-            body:JSON.stringify({
-                
-                byteidlist:this.byteidlist
-            })
+            data:JSON.stringify(byteidlist)
+        
         })
         .then(res=>res.json())
         .then((result)=>{
@@ -134,6 +146,7 @@ export class Binary extends Component{
             alert('Failed');
         }) 
     }
+   
     render(){
         const {
             bytes,
@@ -144,6 +157,7 @@ export class Binary extends Component{
 
         return(
 <div>
+    
 <button type="button"
     className="btn btn-primary m-2 float-end"
     data-bs-toggle="modal"
@@ -191,7 +205,7 @@ export class Binary extends Component{
     </thead>
     <tbody>
         {bytes.map(byt=>
-            <tr key={byt.id}>
+            <tr className={this.getColorRow(byt.number)} key={byt.id}>
                 <td>{byt.byte7}</td>
                 <td>{byt.byte6}</td>
                 <td>{byt.byte5}</td>
@@ -201,6 +215,7 @@ export class Binary extends Component{
                 <td>{byt.byte1}</td>
                 <td>{byt.byte0}</td>
                 <td>{byt.number}</td>
+                
                
                 <td>
                 <button type="button"
@@ -246,8 +261,41 @@ export class Binary extends Component{
                     </svg>
                 </button>
     </div>
+    <div className="modal fade" id="exampleModal" tabIndex="-1" aria-hidden="true">
+<div className="modal-dialog modal-lg modal-dialog-centered">
+<div className="modal-content">
+   <div className="modal-header">
+       <h5 className="modal-title">{modalTitle}</h5>
+       <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"
+       ></button>
+   </div>
 
+   <div className="modal-body">
+       <div className="input-group mb-3">
+        <span className="input-group-text">AddByte</span>
+        <input type="text" className="form-control"
+        value={number}
+        onChange={this.changenumber}/>
+       </div>
 
+        {id==0?
+        <button type="button"
+        className="btn btn-primary float-start"
+        onClick={()=>this.createClick()}
+        >Create</button>
+        :null}
+
+        {id!=0?
+        <button type="button"
+        className="btn btn-primary float-start"
+        onClick={()=>this.updateClick()}
+        >Update</button>
+        :null}
+
+   </div>
+   </div>
+</div> 
+</div> 
 
     </div>)
     }
