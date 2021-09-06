@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Megafon", "Megafon\Megafon.csproj", "{29B6D776-9255-45C4-9B73-076672BAA890}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binaryfunction", "Binaryfunction\Binaryfunction.csproj", "{39DA1164-7B5C-4EFE-8A15-AFE392929B3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29B6D776-9255-45C4-9B73-076672BAA890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29B6D776-9255-45C4-9B73-076672BAA890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29B6D776-9255-45C4-9B73-076672BAA890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29B6D776-9255-45C4-9B73-076672BAA890}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39DA1164-7B5C-4EFE-8A15-AFE392929B3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39DA1164-7B5C-4EFE-8A15-AFE392929B3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39DA1164-7B5C-4EFE-8A15-AFE392929B3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39DA1164-7B5C-4EFE-8A15-AFE392929B3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F9A36B4-D10A-420D-BAA7-F69BF0F5DF49}
+	EndGlobalSection
+EndGlobal
