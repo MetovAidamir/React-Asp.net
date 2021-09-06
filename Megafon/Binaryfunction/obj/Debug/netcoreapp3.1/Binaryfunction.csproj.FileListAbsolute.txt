@@ -8,3 +8,12 @@ C:\Users\Айдамир\Desktop\Myproject\Megafon\Binaryfunction\obj\Debug\netco
 C:\Users\Айдамир\Desktop\Myproject\Megafon\Binaryfunction\obj\Debug\netcoreapp3.1\Binaryfunction.csproj.CoreCompileInputs.cache
 C:\Users\Айдамир\Desktop\Myproject\Megafon\Binaryfunction\obj\Debug\netcoreapp3.1\Binaryfunction.dll
 C:\Users\Айдамир\Desktop\Myproject\Megafon\Binaryfunction\obj\Debug\netcoreapp3.1\Binaryfunction.pdb
+C:\Users\mnvp\Desktop\React-Asp.net\Megafon\Binaryfunction\bin\Debug\netcoreapp3.1\Binaryfunction.deps.json
+C:\Users\mnvp\Desktop\React-Asp.net\Megafon\Binaryfunction\bin\Debug\netcoreapp3.1\Binaryfunction.dll
+C:\Users\mnvp\Desktop\React-Asp.net\Megafon\Binaryfunction\bin\Debug\netcoreapp3.1\Binaryfunction.pdb
+C:\Users\mnvp\Desktop\React-Asp.net\Megafon\Binaryfunction\obj\Debug\netcoreapp3.1\Binaryfunction.csprojAssemblyReference.cache
+C:\Users\mnvp\Desktop\React-Asp.net\Megafon\Binaryfunction\obj\Debug\netcoreapp3.1\Binaryfunction.AssemblyInfoInputs.cache
+C:\Users\mnvp\Desktop\React-Asp.net\Megafon\Binaryfunction\obj\Debug\netcoreapp3.1\Binaryfunction.AssemblyInfo.cs
+C:\Users\mnvp\Desktop\React-Asp.net\Megafon\Binaryfunction\obj\Debug\netcoreapp3.1\Binaryfunction.csproj.CoreCompileInputs.cache
+C:\Users\mnvp\Desktop\React-Asp.net\Megafon\Binaryfunction\obj\Debug\netcoreapp3.1\Binaryfunction.dll
+C:\Users\mnvp\Desktop\React-Asp.net\Megafon\Binaryfunction\obj\Debug\netcoreapp3.1\Binaryfunction.pdb

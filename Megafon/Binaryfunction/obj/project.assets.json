@@ -8,26 +8,23 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Айдамир\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Users\\mnvp\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Айдамир\\Desktop\\Myproject\\Megafon\\Binaryfunction\\Binaryfunction.csproj",
+      "projectUniqueName": "C:\\Users\\mnvp\\Desktop\\React-Asp.net\\Megafon\\Binaryfunction\\Binaryfunction.csproj",
       "projectName": "Binaryfunction",
-      "projectPath": "C:\\Users\\Айдамир\\Desktop\\Myproject\\Megafon\\Binaryfunction\\Binaryfunction.csproj",
-      "packagesPath": "C:\\Users\\Айдамир\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Айдамир\\Desktop\\Myproject\\Megafon\\Binaryfunction\\obj\\",
+      "projectPath": "C:\\Users\\mnvp\\Desktop\\React-Asp.net\\Megafon\\Binaryfunction\\Binaryfunction.csproj",
+      "packagesPath": "C:\\Users\\mnvp\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mnvp\\Desktop\\React-Asp.net\\Megafon\\Binaryfunction\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Айдамир\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\mnvp\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -39,7 +36,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -51,7 +47,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
@@ -67,7 +62,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -149,9 +149,15 @@ namespace Megafon.Controllers
                     myCon.Close();
                 }
             }
-
+            
             return new JsonResult("Deleted Successfully");
         }
+        [Route("/Sum")]
+        [HttpPut("{byteidlist}")]
+        public JsonResult Post(int byteidlist)
+        {
 
+            return new JsonResult(byteidlist);
+        }
     }
 }
