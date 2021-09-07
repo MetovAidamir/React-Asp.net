@@ -56,8 +56,6 @@ C:\Users\mnvp\Desktop\React-Asp.net\Megafon\Megafon\bin\Debug\netcoreapp3.1\Bina
 C:\Users\mnvp\Desktop\React-Asp.net\Megafon\Megafon\obj\Debug\netcoreapp3.1\Megafon.csprojAssemblyReference.cache
 C:\Users\mnvp\Desktop\React-Asp.net\Megafon\Megafon\obj\Debug\netcoreapp3.1\Megafon.AssemblyInfoInputs.cache
 C:\Users\mnvp\Desktop\React-Asp.net\Megafon\Megafon\obj\Debug\netcoreapp3.1\Megafon.AssemblyInfo.cs
-C:\Users\mnvp\Desktop\React-Asp.net\Megafon\Megafon\obj\Debug\netcoreapp3.1\Megafon.csproj.CoreCompileInputs.cache
-C:\Users\mnvp\Desktop\React-Asp.net\Megafon\Megafon\obj\Debug\netcoreapp3.1\Megafon.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\mnvp\Desktop\React-Asp.net\Megafon\Megafon\obj\Debug\netcoreapp3.1\Megafon.RazorTargetAssemblyInfo.cache
 C:\Users\mnvp\Desktop\React-Asp.net\Megafon\Megafon\obj\Debug\netcoreapp3.1\Megafon.csproj.CopyComplete
 C:\Users\mnvp\Desktop\React-Asp.net\Megafon\Megafon\obj\Debug\netcoreapp3.1\staticwebassets\Megafon.StaticWebAssets.Manifest.cache
@@ -65,3 +63,5 @@ C:\Users\mnvp\Desktop\React-Asp.net\Megafon\Megafon\obj\Debug\netcoreapp3.1\stat
 C:\Users\mnvp\Desktop\React-Asp.net\Megafon\Megafon\obj\Debug\netcoreapp3.1\Megafon.dll
 C:\Users\mnvp\Desktop\React-Asp.net\Megafon\Megafon\obj\Debug\netcoreapp3.1\Megafon.pdb
 C:\Users\mnvp\Desktop\React-Asp.net\Megafon\Megafon\obj\Debug\netcoreapp3.1\Megafon.genruntimeconfig.cache
+C:\Users\mnvp\Desktop\React-Asp.net\Megafon\Megafon\obj\Debug\netcoreapp3.1\Megafon.csproj.CoreCompileInputs.cache
+C:\Users\mnvp\Desktop\React-Asp.net\Megafon\Megafon\obj\Debug\netcoreapp3.1\Megafon.MvcApplicationPartsAssemblyInfo.cache

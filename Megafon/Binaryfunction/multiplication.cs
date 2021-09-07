@@ -7,9 +7,10 @@ namespace Binaryfunction
     class multiplication
     {
         public string res;
-        public void multBite(string bit1,string bit2)
+        public void multBite(int  bit1,int  bit2)
         {
-            
+            int resmul = bit1 * bit2;
+            res = Convert.ToString(resmul, 2);
         }
     }
 }

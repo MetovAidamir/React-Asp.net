@@ -17,7 +17,7 @@ namespace Megafon.Models
         public int byte1 { get; set; }
         public int byte0 { get; set; }
         public int number { get; set; }
-        public string byteidlist { get; set; }
+       
 
     }
 }

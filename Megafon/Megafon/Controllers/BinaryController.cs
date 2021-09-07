@@ -46,7 +46,7 @@ namespace Megafon.Controllers
 
             return new JsonResult(table);
         }
-          [HttpPost]
+         [HttpPost]
           public JsonResult Post(Binary dep)
           {
               string query = @"
@@ -85,7 +85,7 @@ namespace Megafon.Controllers
 
               return new JsonResult("Added Successfully");
           }
-        
+       
         [HttpPut]
         public JsonResult Put(Binary dep)
         {
@@ -154,12 +154,12 @@ namespace Megafon.Controllers
             return new JsonResult("Deleted Successfully");
         }
         [Route("Sum")]
-        [HttpPost]
-        public JsonResult Post(string [] s)
+        [HttpPost("{byteidlist}")]
+        public JsonResult Post(List<int> byteidlist)
         {
-            string i =s[0] ;
 
-            return new JsonResult(i.ToString());
+            
+            return new JsonResult(byteidlist);
         }
     }
 }
